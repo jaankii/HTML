@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td> col 1 </td>
+			<td> col 2 </td>
+			<td> col 3 </td>
+		</tr>
+		<tr>
+			<td> col 1</td>
+			<td colspan="2">
+				<table border="1">
+					<tr>
+						<td> nested col</td>
+						<td colspan="3"> nested col</td>
+					</tr>
+					<tr>
+						<td colspan="4"> nested col</td>
+					</tr>
+					<tr>
+						<td>nested col</td>
+						<td>nested col</td>
+						<td>nested col</td>
+						<td>nested col</td>
+
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3"> col 1</td>
+		</tr>
+	</table>
+</body>
+</html>
